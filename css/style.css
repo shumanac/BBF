@@ -1,0 +1,94 @@
+body{
+padding:0;
+margin: 0;
+left:0;
+right:0;
+
+}
+body{
+font-family: 'Opensans', Open Sans;
+
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+nav .brand-logo  ul li a:hover{
+  background-color: #E51A45;
+}
+.nav-wrapper{
+    background-color: #fff;
+}
+p {
+  line-height: 2rem;
+}
+
+.reg{
+ top:101px!important;
+}
+
+.button-collapse {
+  background-color:#E51A45!important;
+}
+
+
+.teal.lighten-1 {
+    background-color:#E51A45!important; 
+}
+.venue img{
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+}
+
+}
+.speakers{
+    width: 100%;
+}
+.speakers img{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax-container {
+  min-height: 613px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+.parallax img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+ 
+}
+.teal{
+ background-color: #E51A45!important;
+}
