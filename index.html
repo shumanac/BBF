@@ -6,7 +6,10 @@
   <title>Bangladesh Brand Forum</title>
      <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sans Serif">
+ <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
           
@@ -20,35 +23,37 @@
   <script src="js/init.js"></script>
    <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
-    
-    
-
+    <script>
+$( document ).ready(function){
+$('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
+    }
+    </script>
 </head>
 <body>
 <!---Fixed navbar---->    
-  <div class="navbar-fixed z-depth-4">
+  <div class="navbar-fixed ">
     <nav>
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"><img  class="responsive-img" style="margin:7%;" src="images/rbbf-seminar-1.jpg"></a>
-        <ul class=" right hide-on-med-and-down">
+        <a href="#!" class="brand-logo"><img  class="responsive-img" style="margin-top:3px; margin-left:8px" src="images/BBF-Seminar-logo-3.png"></a>
+         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul  id="nav-mobile" class="right hide-on-med-and-down nv">
         <li><a href="#index-banner">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#speaker">Speakers</a></li>
-         <li><a href="#sponsor">Sponsors</a></li>
-        <li><a href="form/BBF seminar Registration Form 2015.pdf">Registration</a></li>
         <li><a href="form/Agenda 2015.pdf">Agenda</a></li>
+         <li><a href="#sponsor">Sponsors</a></li>
+        <li><a href="form/BBF seminar Registration Form 2015.pdf">Registration</a></li>  
         <li><a href="#competition">Competition</a></li>
         <li><a href="#venue">Venue</a></li> 
         </ul>
-          
-<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-        <ul class="side-nav" id="mobile-demo">
+   
+         <ul id="nav-mobile" class="side-nav" >
         <li><a href="#index-banner">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#speaker">Speakers</a></li>
+        <li><a href="form/bbf-seminar-agenda-2015.pdf">Agenda</a></li>
          <li><a href="#sponsor">Sponsors</a></li>
             <li><a href="form/bbf-seminar-registration-form-2015.pdf">Registration</a></li>
-        <li><a href="form/bbf-seminar-agenda-2015.pdf">Agenda</a></li>
         <li><a href="#competition">Competition</a></li>
         <li><a href="#venue">Venue</a></li> 
         </ul>
@@ -64,13 +69,18 @@
   <div id="index-banner" class=" section scrollspy parallax-container">
  
       <div class="container">
-          <div class="row center-align">
-          <h1 class="wow lightSpeedIn" data-wow-duration="1s" data-wow-delay=".2s" >Rethinking Marketing</h1> 
-          <img  class="responsive-img" src="images/bbf.png">
+          <div class="row center-align Rm">
+                    <h1 class=" wow fadeInUp z-depth-5" data-wow-duration="1s" data-wow-delay=".2s" style="color:#E51A45; margin-top:12%;" >Rethinking Marketing</h1>
+                               <h5 style="color:#E51A45; font-weight:bold; margin-top:4%;">April 18, 2015<br />
+              Raddison Blue Water Garden, Dhaka, Bangladesh</h5><br />
+      
+
+          <img  class="responsive-img" src="images/BBF.png" style="margin-top:5%;">
           </div>
-    <div class="parallax"><img  class="responsive-img" src="images/background1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img  class="responsive-img" src="images/bck1.jpg" alt="Unsplashed background img 2"></div>
      <div class="row center-align">
-    <a href="#registration" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 center-align reg" >Registration</a>
+    <a href="form/bbf-seminar-registration-form-2015.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 left-align reg" >Registration</a>
+
      </div>
       </div>
   </div>
@@ -84,34 +94,14 @@
         <div class="col s12">
          
             <h3 class="center">About</h3>
-
-            <p class="light" style="text-align: justify;">2015 is a critical year for Bangladesh. On the one hand, the year, unfortunately, started with major political conflict which is still affecting businesses and their projected growth. On the other hand, philosophy of Marketing is being reinvented – due to the influence of digital and increased engagement of consumer and people.
-
-The exponential growth of online activities – from adopting a smartphone to opening a social media page to buying and selling online – Bangladesh is seeing a growth of consumer activities like never before. While online analytics has given more opportunity to marketers to monitor and target their potential buyers more specifically, consumers, on the other hand, have more opportunity to review, switch and drive the brand marketers according to their whims on a more competitive platform.
-
-During such a challenging yet opportune time the focus for every business is delivering sustainable growth. And that growth is only feasible when the businesses and brands are designed around people, when marketing is outside-in.
-
+            <h5 style="text-align:center;">BBF Seminar 2015: Reinventing Marketing</h5>
+            <p class="light" style="text-align: justify;">2015 is a critical year for Bangladesh. On the one hand, the year, unfortunately, started with major political conflict which is still affecting businesses and their projected growth. On the other hand, 
+philosophy of Marketing is being reinvented – due to the influence of digital and increased engagement of consumer and people. 
+The exponential growth of online activities - from adopting a smartphone to opening a social media page to buying and selling online – Bangladesh is seeing a growth of consumer activities like never before. While online analytics has given more opportunity to marketers to monitor and target their potential buyers more specifically, consumers, on the other hand, have more opportunity to review, switch and drive the brand marketers according to their whims on a more competitive platform. During such a challenging yet opportune time the focus for every business is delivering sustainable 
+growth. And that growth is only feasible when the businesses and brands are designed around people, when marketing is outside-in.
 BBF seminar will explore these challenges and opportunities during the one daylong Seminar. Keeping that context in 2015 at the BBF Seminar, the theme is – Reinventing Marketing.</p>
          
-        
-          <h5>Inception of BBF Seminars</h5>
-          <p  style="text-align: justify;">Brand Forum Seminar is one of the most important events for BBF. The Seminar is designed to share the best practices and thinking from around the world with local business leaders and marketing fraternity. Till 2014, we have so far organized 4 BBF Seminars (2007, 2008, 2009, 2013) BBF has shared the inspiration of 20+ Global experts before our corporate fraternity.
-
-It has always been the aim of BBF seminars to bring in the international experts of marketing to conduct exclusive key-notes on topics which benefits the marketing and corporate professionals of Bangladesh. To this end, some highly commendable experts from around the world have shared their learning and insights at BBF seminars. Some of the experts are : Sanjiv Mehta, Chairman, Unilever, Middle East & North Africa; Jeff Cacy: Managing Director, Boeing Marketing Services; David Mayo, President Ogilvy & Mather Asia Pacific; Santosh Desai: CEO, Future Brand India; Tom Darlow: Brand Consultant, Ex Marketing Director, Unilever Pakistan; Peter Van Der Kruit: Creative Head , Firmenich; Argha Sen, Head of Marketing, Toys R US; Karthik Siva, Founder, Global Brand Forum; Dharmarajan Chandran, Marketing Director, Kraft Food Asia; Prof Nirmalya Kumar, London Business School; Tom Blackett: Ex Vice Chairman, Interbrand, UK; Abhijit Datta: General Manager, Marketing, South West Asia, Coca Cola; Bob Pickard, Ex President & CEO, Asia Pacific, Burson Marsteller, and many more.</p>
-            <h5>Event Details</h5>
-            <p  style="text-align: justify;">The daylong seminar will take place on Saturday, 18th April, 2015, Grand Ball Room, Radisson Blu Water Garden. In addition to the seminar being open to registration, BBF will reward free entries and access to all provisions to 5 entry-level executives from the corporate and to 10 students from the universities. The entries and all complimentary will be given to the winners of two case-study competitions which are being run online.</p>
-            
-            <h5> Speakers & Sessions</h5>
-
-<p  style="text-align: justify;">Speakers in different sessions will focus on areas that are critical to build a strong Brand during difficult time- focusing on following insightful topics:
-
-Topic 1: Reinventing Brands – Delivering meaningful Promises
-Topic 2: Branding from Fundamental to New Wave Marketing
-Topic 3: Marketing in Challenging Times
-
-    The following Four Speakers have already been confirmed for 5th Brand Forum Seminar on 18th April, 2015 at Radisson BLU.</p>
-       
-</div>
+        </div>
     </div>
     </div>
     </div>
@@ -126,39 +116,39 @@ Topic 3: Marketing in Challenging Times
         <div class="row center">
           <h3 class="header col s12 light">Speakers</h3>
         </div>
-          <div class="row">
-            <div class="col s12 m4 wow fadeInUp" data-wow-duration="2s">
-        <img class="circle responsive-img" src="images/DAN.JPG">
-                <h5> Dan Formosa, Ph.D.</h5>
- <h6>Product Design Jury President, Cannes Lions 2015
+          <div class="row center-align">
+            <div class="col s6 m4 wow fadeInUp left-align" data-wow-duration="2s" style="margin-left:12%;">
+                
+        <img class="circle responsive-img" src="images/hooi.png" style="text-align:center;">
+                <h5  style="text-align: center;margin-right:24%;"> Hooi Den Huan</h5>
+ <h6  style="text-align:center;margin-right:24%;">Director, Nanyang Technopreneurship Center
+Associate Professor ,Nanyang Business School</h6>
+                
+        <img class="circle responsive-img" src="images/formosa.png" style="text-align:center;">
+                <h5  style="text-align: center;margin-right:17%;"> Dan Formosa, Ph.D.</h5>
+ <h6  style="text-align: center;margin-right:17%;">Product Design Jury President, Cannes Lions 2015
 Design Thinker
 Founding Faculty Member, Masters in Branding, School of Visual Arts, New York</h6>
-            </div>
-             <div class="col s12 m4 wow fadeInUp" data-wow-duration="2s">
               
-<img class="circle responsive-img" src="images/Hooi-Den-Huan.jpg">
-                <h5> Hooi Den Huan</h5>
- <h6>Director, Nanyang Technopreneurship Center
-Associate Professor ,Nanyang Business School</h6>
+
               </div>
-           
-      <div class="col s12 m4 wow fadeInUp" data-wow-duration="2s">
-        <img class="circle responsive-img" src="images/sunil.png">
-                <h5> Sunil Alagh</h5>
- <h6>Founder and Chairman of SKA Advisors
+        
+      <div class="col s6 m4 wow fadeInUp right-align" data-wow-duration="2s" style="margin-left:12%;">
+        <img class="circle responsive-img" src="images/Sunil.png" style="text-align:center;">
+                <h5  style="text-align:center;margin-left:32%;"> Sunil Alagh</h5>
+ <h6  style="text-align:center;margin-left:34%;">Founder and Chairman of SKA Advisors
 Former Managing Director & CEO of Britannia Industries Ltd</h6>
-            </div>         
-     <div class="col s12 m4 wow fadeInUp" data-wow-duration="2s">
-<img class="circle responsive-img" src="images/Hermawan%20Kartajaya.jpg">
-                <h5>Hermawan Kartajaya</h5>
- <h6>President, World Marketing Association
+    
+<img class="circle responsive-img" src="images/Hermawan.png" style="text-align:center;">
+                <h5  style="text-align: center;margin-left:36%;">Hermawan Kartajaya</h5>
+ <h6  style="text-align:center;margin-left:36%;">President, World Marketing Association
 Co-founder, Asia Marketing Federation
 CEO, Markplus, Indonesia</h6>
             </div>        
               </div>
           </div>
     
-    <div class="parallax speakers"><img  class="responsive-img" src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax speakers"><img  class="responsive-img" src="images/pano.jpg" alt="Unsplashed background img 2"></div>
   </div>
   </div>
     </div>
@@ -169,58 +159,50 @@ CEO, Markplus, Indonesia</h6>
 <!--  End of Speaker Section   -->
 <!--Sponsor---->
     <div id="sponsor" class="container wow bounceInUp scrollspy">
-    <div class="section">
+    <div class="section sponsor">
       <div class="row">
-        <div class="col s12 center">
-          <h3>Sponsors</h3>
-         
+        <div class="col s12 center-align">
+          <h3>Sponsors</h3>         
         </div>
-       <div class="row center-align">
-           <div class="col s3 wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img class="responsive-img" src="images/images.jpeg"><h6> Benquet Partner</h6></div>
-           <div class="col s3 wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img class="responsive-img" src="images/etihad-airways-logo.jpg"><h6>Airline Partner</h6></div>
-           <div class="col s3 wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img class="responsive-img" src="images/the-daily-star_logo.gif"><h6>Strategic Partner</h6></div>
-        <div class="col s3 wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img class="responsive-img" src="images/MSB.jpeg"><h6>Strategic Partner</h6></div>
-         
-          </div>
-             <div class="row center-align">
-           <div class="col s3"><img class="responsive-img" src="images/WebAble_logo2.png"><h6>Social Media Partner</h6></div>
-           <div class="col s3"><img class="responsive-img" src="images/mastheadpr.jpg"><h6>PR Partner</h6></div>
-           <div class="col s3"><img class="responsive-img" src="images/maverick.jpg"><h6>Digital Content Partner</h6></div>
-            <div class="col s3"><img class="responsive-img" src="images/BBF.png"><h6>An initiative of Bangladesh</h6>
-             </div>
-          </div> 
-          
+          <div class="row" >
+        
+           
+<div class="col s3 center-align">Banquet Partner<div class=" wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img  src="images/images.jpeg"></div></div>
+              
+<div  class="col s3 center-align">TV Partner<div class=" wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img  src="images/tvlogo.gif" ></div></div>
+            
+<div  class="col s3 center-align">Strategic Partner<div class=" wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img  src="images/the%20daily%20star.png" style="margin-top:8%;"></div></div>    
+              
+<div  class="col s3 center-align ">Strategic Partner<div class=" wow slideInLeft" data-wow-duration=".2s" data-wow-delay=".5s"><img src="images/MSB.jpeg"></div></div>
+ 
       </div>
+                 
+ 
+                  <br />
+                  <div class="row" style="margin-top:5%;">
+        <div  class="col s3 center-align">PR Partner<div><img  src="images/masthead.png" ></div></div>          
+        <div  class="col s3 center-align">Digital Content Partner<div ><img  src="images/maverick.png"></div></div>
+        <div  class="col s3 center-align">Social Media Partner<div><img  src="images/webable.png"></div></div>
+        <div  class="col s3 center-align">Airline Partner<div ><img src="images/etihad.png"></div></div>          
+                  
+                  
+                  </div>
+                
+          
 
-    </div>
+
+   
   </div>
+        </div>
+</div>
 <br />
-<div class="divider"></div>
+
 <!--End of Sponsors---> 
 
-<!----Registration---->
-  <div id="registration" class="container scrollspy">
-    <div class="section">
-      <div class="row">
-        <div class="col s12 center">
-          <h3>Registration</h3>
-          <p class="left-align light">
-            BBF Seminar 2015, please download the registration form, fill it up and send it to our office address.
-              <br />
-              <a href="form/bbf-seminar-registration-form-2015.pdf">1. BBF Seminar Registration Form 2015</a><br />
-              <a href="form/bbf-seminar-agenda-2015.pdf">2. BBF Seminar Agenda 2015</a>
-            
-            </p>
-        </div>
-      </div>
-    </div>
-  </div>
-<br />
-<div class="divider"></div>
- <!----End of Registration----> 
+
 
 <!--Competitions--->
-  <div id="competition" class="container scrollspy">
+  <div id="competition" class="container scrollspy" style="display:none;">
     <div class="section">
       <div class="row">
         <div class="col s12 center">
@@ -232,7 +214,7 @@ CEO, Markplus, Indonesia</h6>
     </div>
   </div>
 <br />
-<div class="divider"></div>
+
 <!--End of Compititions--->
 <!--Venue--->
   <div id="venue"class="parallax-container valign-wrapper scrollspy">
@@ -240,28 +222,42 @@ CEO, Markplus, Indonesia</h6>
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-            <h3>Venue</h3>
-            <h2 class="header col s12 light">Radisson Blu Water Garden</h2><h4>Grand Ball Room</h4>
-            <h5>Airport Road, Dhaka Cantonment, Dhaka 1206, Bangladesh</h5>      
+            <h3 class="header col s12 light" >Radisson Blu Water Garden</h3><h5>Grand Ball Room</h5>
+            <h6>Airport Road, Dhaka Cantonment, Dhaka 1206, Bangladesh</h6>   
+            <h5> Contact Us</h5>
+            <h6>Bangladesh Brand Forum<br />
+                01755594960, 01755594961
+            </h6>
+            <br />
+            <h6>
+            Email us at:<br />
+            bbfseminar2015@gmail.com
+            </h6>
+            <br />
+            <a class="waves-effect waves-light btn-large dir center-align" href="https://goo.gl/maps/3JKoS">Get Directions</a>
         </div>
       </div>
     </div>
-    <div class="parallax venue"><img src="images/background3.jpg" alt="Unsplashed     background img 3"></div>
+    <div class="parallax venue"><img src="images/rad.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
 <!---End of Venue--->
 <!---Footer--->
-  <footer class="page-footer teal">
-  
-      
-        
-           <p class="white-text text-darken-2 right-align"> © 2013 Bangladesh Brand Forum. All rights reserved.</p>
+  <footer class="page-footer teal" style="padding-top:5px;">
 
- 
-    <div class="footer-copyright">
-        <p class="grey-text text-lighten-4"><h6 class="right-align">Powered by aamra infotainment limited.</h6>
+           <p class="white-text text-darken-2 center-align" >
+      <h6 class="center-align" style="color:#fff; font-size:.75em; text-transform: uppercase;">Proudly Designed By The</h6><br/>
+      <h6 class="center-align"><a href="http://webable.com.bd/" style="color:#fff; line-height:1; font-size:.75em;text-transform: uppercase;">webable team</a></h6>
+    
+      </p>
+        <p class="center-align" >
+              
+      <a href="" class="left-align" style="letter-spacing:5px;"> <i class="fa fa-facebook fa-2x" style="color:#fff;"></i>
+</a>
+<a href="" class="right-align"><i class="fa fa-twitter fa-2x" style="color:#fff; "></i>
+</a>
 </p>
-    </div>
+  
   </footer>
 
 <!---End of Footer-->
@@ -272,19 +268,6 @@ CEO, Markplus, Indonesia</h6>
     
 </script>
 
-    <script>
-     $( document ).ready(function(){
-      
-      $(".button-collapse").sideNav();
 
-     
-   
-     
-    $('.scrollspy').scrollSpy();
-
-    
-});
-      
-</script>
   </body>
 </html>

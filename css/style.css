@@ -6,7 +6,7 @@ right:0;
 
 }
 body{
-font-family: 'Opensans', Open Sans;
+font-family: 'Merriweather Sans', sans-serif;
 
 }
 nav ul a,
@@ -24,24 +24,38 @@ p {
 }
 
 .reg{
- top:101px!important;
+ top:50px!important;
+
 }
+
 
 .button-collapse {
   background-color:#E51A45!important;
 }
-
+.sponsor ul li{
+    float:left;
+}
+.dir{
+margin-top: 10%;
+  background-color: #E51A45;
+}
 
 .teal.lighten-1 {
     background-color:#E51A45!important; 
 }
 .venue img{
      background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover!important;
     height: 100%;
   
 }
+.brand-logo{
+    margin-left: 3%;
+}
+.nv{
+      margin-right:2%;
 
+}
 }
 .speakers{
     width: 100%;
