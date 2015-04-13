@@ -213,9 +213,12 @@ footer.page-footer {
         margin-top: 7%!important;
     
     }
-    .digi{
-        font-size:2.9vw;
-    
+  
+    .spon2{
+    	  font-size:2.9vw;
+    }
+    .spon3{
+    	  font-size:2.9vw;
     }
     .ban{
     
@@ -248,6 +251,13 @@ footer.page-footer {
     #venue{
         margin-top:-10%!important;
     }
-  
+    .agenda1{
+        width:100%!important;
+        font-size:10px!important;
+    }
+    .agenda2{
+        width:100%!important;
+        font-size:10px!important;
+    }
 }
 
